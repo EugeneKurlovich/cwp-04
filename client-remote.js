@@ -5,7 +5,6 @@ const path = require('path');
 const OkServerStatus = 'ACK';
 const ErrServerStatus = 'DEC';
 const OkClientStatus = "REMOTE";
-
 const COPYStatus = "COPY";
 const ENCODEStatus = "ENCODE";
 const DECODEStatus = "DECODE";

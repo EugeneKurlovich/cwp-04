@@ -4,15 +4,9 @@ const path = require('path');
 const crypto = require('crypto');
 const port = 3001;
 
-const ClientQAstatus = 'QA';
-const ClientFILESstatus = 'FILES';
 const ClientREMOTEStatus = "REMOTE";
 const separator = '|||||';
-
-
 const serverResOKstatus = 'ACK';
-const serverResErrstatus = 'DEC';
-
 const encodeAlgorithm = "aes-256-ctr";
 
 let seed = 0;
