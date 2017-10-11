@@ -8,7 +8,7 @@ const OkClientStatus = "REMOTE";
 const COPYStatus = "COPY";
 const ENCODEStatus = "ENCODE";
 const DECODEStatus = "DECODE";
-const key = "j5kdFJK3dfjKJDf";
+const key = "Eugene";
 const separator = '|||||';
 
 let requestType = process.argv[2];
