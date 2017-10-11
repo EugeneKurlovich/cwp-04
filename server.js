@@ -69,12 +69,9 @@ const server = net.createServer(function (client) {
     }
 });
 
-
 server.listen(port, 'localhost', function () {
     console.log("start server");
 });
-
-
 
 function createFileWithStream(fileName, newFileName, transformStream) {
     fs.stat(fileName, (err) => {
@@ -91,11 +88,6 @@ function createFileWithStream(fileName, newFileName, transformStream) {
             console.error(err);
         }
     });
-}
-
-function createDirIfNotExist(path) {
-    if (!fs.existsSync(path))
-        fs.mkdirSync(path);
 }
 
 function getUniqId() {
